@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26.2-CSS",
+	"EngineAssociation": "{4B595EC4-4931-3BDE-35A3-BA83D449B119}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -43,6 +43,10 @@
 		{
 			"Name": "SteamVR",
 			"Enabled": false
+		},
+		{
+			"Name": "AbstractInstance",
+			"Enabled": true
 		}
 	]
 }

@@ -56,7 +56,7 @@ public:
 
 	/** Get the current time subsystem */
 	UFUNCTION(BlueprintPure, Category="Time", DisplayName="GetTimeSubsystem", meta=(DefaultToSelf="worldContext"))
-	static AFGTimeOfDaySubsystem* Get( UObject* worldContext );
+	static AFGTimeOfDaySubsystem* Get(const UObject* worldContext );
 
 	/** Get the time of day manager for the current world */
 	static AFGTimeOfDaySubsystem* Get( UWorld* world );
