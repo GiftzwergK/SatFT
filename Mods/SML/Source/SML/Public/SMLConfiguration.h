@@ -12,12 +12,6 @@ public:
     * Note that this setting will only affect players, other command senders will still be able to use it
     */
     TArray<FString> DisabledChatCommands;
-
-    /**
-    * Whenever to enable console commands which are considered cheat and disabled by default
-    * See UFGCheatManager for command list
-    */
-    bool bEnableCheatConsoleCommands;
 public:
     /** Deserializes configuration from JSON object */
     static void ReadFromJson(const TSharedPtr<class FJsonObject>& Json, FSMLConfiguration& OutConfiguration, bool* OutIsMissingSections = NULL);
